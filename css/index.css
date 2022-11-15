@@ -13,7 +13,7 @@
 .content .contentItem {
     width: 32%;
     height: 40%;
-
+    cursor: pointer;
 }
 
 .content .contentItem .img {
