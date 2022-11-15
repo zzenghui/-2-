@@ -1,0 +1,105 @@
+ .cakePhoto {
+     height: 365px;
+ }
+
+ .photoleft {
+     float: left;
+     width: 42%;
+     height: 100%;
+     border: 10px solid #ccc;
+ }
+
+ .photoleft img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .photoright {
+     float: right;
+     width: 42%;
+     height: 100%;
+     border: 10px solid #ccc;
+ }
+
+ .photoright img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .photoDesc {
+     height: 430px;
+     margin-top: 50px;
+ }
+
+ .photoDesc .left {
+     display: flex;
+     float: left;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 440px;
+     height: 100%;
+ }
+
+ .left .left-item {
+     width: 100%;
+     height: 31%;
+ }
+
+ .left .left-item img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .photoDesc .right {
+     float: right;
+     width: 480px;
+     height: 100%;
+
+ }
+
+ .photoDesc .right .right-left {
+     float: left;
+     width: 1px;
+     height: 350px;
+     border: 1px solid #ccc;
+     background-color: #ccc;
+ }
+
+ .photoDesc .right .right-left .circle {
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #ccc;
+     transform: translateX(-50%);
+     margin-bottom: 70px;
+ }
+
+ .photoDesc .right .right-left .circle:nth-child(1) {
+     margin-top: 20px;
+ }
+
+ .right-right {
+     float: left;
+     width: 390px;
+     height: 350px;
+     margin-left: 50px;
+     padding-top: 20px;
+ }
+
+ .right-right ul li {
+     width: 100%;
+     height: 24%;
+     font-size: 16px;
+     color: #666666;
+     margin-bottom: 25px;
+
+ }
+
+ .right-right ul li p {
+     width: 85%;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+     font-size: 12px;
+     margin-top: 20px;
+ }

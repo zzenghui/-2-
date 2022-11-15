@@ -1,0 +1,60 @@
+ .title-desc {
+     text-align: center;
+     line-height: 40px;
+     margin-bottom: 50px;
+ }
+
+ .title-photo {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 265px;
+ }
+
+ .title-photo-item {
+     width: 32%;
+     height: 100%;
+ }
+
+ .title-photo-item img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .swheetPerson {
+     display: flex;
+     justify-content: space-between;
+     height: 350px;
+
+ }
+
+ .swheetPersonItem {
+     width: 23%;
+     height: 100%;
+     text-align: center;
+     border: 1px solid #ccc;
+
+ }
+
+ .swheetPersonItem img {
+     width: 90%;
+     margin-top: -30px;
+ }
+
+ .indro {
+     width: 100%;
+     height: 120px;
+     margin-top: 30px;
+     padding: 0 20px;
+ }
+
+ .indro h2 {
+     color: #666666;
+     margin-bottom: 20px;
+ }
+
+ .indro p {
+     color: #666666;
+     font-size: 14px;
+     line-height: 20px;
+ }

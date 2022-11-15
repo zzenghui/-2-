@@ -1,0 +1,217 @@
+
+
+
+.content {
+    display: flex;
+    height: 280px;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.content .contentItem {
+    width: 32%;
+    height: 40%;
+
+}
+
+.content .contentItem .img {
+    float: left;
+    width: 120px;
+    height: 100%;
+    text-align: center;
+
+}
+
+.desc {
+    float: right;
+    width: 210px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.desc h2 {
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.desc p {
+    font-size: 15px;
+    color: 999999;
+}
+
+.choose {
+    width: 100%;
+    height: 435px;
+    margin-top: 70px;
+    background-image: url(../images/图层\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+
+.choose .black {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 1px solid transparent;
+    opacity: 0.4;
+}
+
+.black .content {
+    width: 850px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.black .content .contentItem {
+    padding-top: 20px;
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    color: aliceblue;
+}
+
+.black .content .contentItem p {
+    margin: 20px 0;
+}
+
+.black .content .contentItem .more {
+    width: 130px;
+    height: 45px;
+    margin: 0 auto;
+    line-height: 45px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.cake-content {
+    height: 925px;
+
+}
+
+.cakeTop {
+    width: 100%;
+    height: 245px;
+}
+
+.cake1 {
+    float: left;
+    width: 552px;
+    height: 245px;
+}
+
+.cake1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.cake2 {
+    float: left;
+    width: 274px;
+    height: 245px;
+    padding: 80px 34px;
+    background-color: #eaeaea;
+}
+
+.cake2 h2 {
+    font-size: 21px;
+    color: #5c5c5c;
+    margin-bottom: 15px;
+}
+
+.cake2 p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #5c5c5c;
+}
+
+.cake3 {
+    float: left;
+    width: 274px;
+    height: 245px;
+}
+
+.cake3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.cakeBottom {
+    width: 100%;
+    height: 680px;
+}
+
+.left {
+    width: 274px;
+    height: 680px;
+    float: left;
+
+}
+
+.center {
+    width: 551px;
+    height: 680px;
+    float: left;
+
+}
+
+.center .img {
+    width: 100%;
+    height: 408px;
+}
+
+.center .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.center .desc2 {
+    width: 100%;
+    height: calc(680px - 408px);
+    background-color: #eaeaea;
+    padding: 80px 20px;
+}
+
+.center .desc2 h2 {
+    font-size: 21px;
+    color: #5c5c5c;
+    margin-bottom: 15px;
+}
+
+.center .desc2 p {
+    font-size: 15px;
+    color: #5c5c5c;
+    line-height: 30px;
+}
+
+.right {
+    float: left;
+    width: 275px;
+
+    height: 680px;
+}
+
+.left-cake {
+    width: 100%;
+    height: calc(680px - 245px);
+}
+
+.left-cake img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail {
+    width: 100%;
+    height: calc(680px - 245px);
+    background-color: red;
+    margin-top: 245px;
+    text-align: center;
+    line-height: 450px;
+    color: aliceblue;
+}

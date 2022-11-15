@@ -1,0 +1,124 @@
+.mor {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.mor .morItem {
+    width: 33%;
+    height: 100%;
+}
+
+.mor .morItem img {
+    width: 100%;
+    height: 100%;
+}
+
+.cakeCate {
+    height: 410px;
+
+}
+
+.cake-right {
+    float: right;
+    width: 245px;
+    height: 100%;
+
+}
+
+.cake-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.cake-left {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: calc(100% - 245px);
+    height: 100%;
+    padding: 20px 0;
+
+}
+
+.cake-left-item {
+    width: 50%;
+    height: 48%;
+
+}
+
+.itemImg {
+    float: left;
+    width: 165px;
+    height: 100%;
+}
+
+.itemImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.cake-left-item .desc5 {
+    float: left;
+    width: calc(100% - 165px);
+    height: 100%;
+    padding: 30px;
+
+}
+
+.cake-left-item .desc5 h4 {
+    margin-bottom: 20px;
+}
+
+.cake-left-item .desc5 p {
+    color: #999;
+}
+
+.suggest {
+    height: 410px;
+    background-color: red;
+}
+
+.left1-1 {
+    float: left;
+    width: 260px;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #e8e8e8;
+}
+
+.line2 {
+    width: 70px;
+    height: 1px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.left1-1 p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #555;
+    text-align: center;
+    line-height: 40px;
+    margin: 40px auto;
+}
+
+.left1-2 {
+    float: left;
+    width: 280px;
+    height: 100%;
+}
+
+.left1-2 img {
+    width: 100%;
+    height: 100%;
+}
